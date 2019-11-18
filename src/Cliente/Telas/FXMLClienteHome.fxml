@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="pane" prefHeight="480.0" prefWidth="640.0" style="-fx-background-color: rgb(106,168,79);" styleClass="-" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Cliente.Telas.FXMLClienteHomeController">
+   <children>
+      <Pane layoutX="170.0" layoutY="35.0" prefHeight="161.0" prefWidth="280.0" style="-fx-border-color: rgb(0,0,0); -fx-border-width: 4px; -fx-border-radius: 50px;" >
+          <Label alignment="CENTER" contentDisplay="CENTER" layoutX="15.0" layoutY="20.0" prefHeight="60.0" prefWidth="250.0" text="Lucky">
+            <font>
+                 <Font name="Comic Sans Bold" size="48.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="15.0" layoutY="80.0" prefHeight="60.0" prefWidth="240.0" text="Dices">
+            <font>
+                 <Font name="Comic Sans Bold" size="48.0" />
+            </font>
+        </Label>
+      </Pane>
+      <Button layoutX=" 241.0" layoutY="312.0" mnemonicParsing="false" onAction="#actionButton" prefHeight="57.0" prefWidth="138.0" style="-fx-background-color: rgb(106,168,79); -fx-border-color: black; -fx-border-width: 3px;" text="START">
+         <font>
+            <Font name="DejaVu Sans Mono Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>   

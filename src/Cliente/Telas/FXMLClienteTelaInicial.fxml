@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.paint.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="pane" prefHeight="480.0" prefWidth="640.0" style="-fx-background-color: rgb(106,168,79);" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Cliente.Telas.FXMLClienteTelaInicialController">
+   <children>
+      <Label layoutX="147.0" layoutY="82.0" prefHeight="317.0" prefWidth="346.0" style="-fx-border-color: black; -fx-border-width: 4; -fx-border-radius: 50;" />
+      <Button layoutX="253.0" layoutY="179.0" mnemonicParsing="false" onAction="#criarSala" prefHeight="43.0" prefWidth="135.0" style="-fx-background-color: rgb(139,195,74); -fx-border-color: white; -fx-border-radius: 8;" text="CRIAR SALA">
+         <font>
+            <Font name="Sigmar One Regular" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="253.0" layoutY="240.0" mnemonicParsing="false" onAction="#entrarSala" prefHeight="43.0" prefWidth="135.0" style="-fx-background-color: rgb(139,195,74); -fx-border-color: white; -fx-border-radius: 8px;" text="ENTRAR  ">
+         <font>
+            <Font name="Sigmar One Regular" size="13.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
